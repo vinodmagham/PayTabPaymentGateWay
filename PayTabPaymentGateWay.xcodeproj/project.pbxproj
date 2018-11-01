@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55B4BCAEC282BDE9D4E07650 /* Pods_PayTabPaymentGateWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F3E0D980B579650426C444 /* Pods_PayTabPaymentGateWay.framework */; };
+		5DACA5BAF0CBB32EBA326D2E /* Pods_PayTabPaymentGateWayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF2E99189E726E8690C5A88 /* Pods_PayTabPaymentGateWayUITests.framework */; };
 		D1EE899E218B0B1F001C7A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EE899D218B0B1F001C7A86 /* AppDelegate.swift */; };
 		D1EE89A0218B0B1F001C7A86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EE899F218B0B1F001C7A86 /* ViewController.swift */; };
 		D1EE89A3218B0B1F001C7A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89A1218B0B1F001C7A86 /* Main.storyboard */; };
@@ -14,6 +16,50 @@
 		D1EE89A8218B0B21001C7A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89A6218B0B21001C7A86 /* LaunchScreen.storyboard */; };
 		D1EE89B3218B0B21001C7A86 /* PayTabPaymentGateWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EE89B2218B0B21001C7A86 /* PayTabPaymentGateWayTests.swift */; };
 		D1EE89BE218B0B21001C7A86 /* PayTabPaymentGateWayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EE89BD218B0B21001C7A86 /* PayTabPaymentGateWayUITests.swift */; };
+		D1EE89E0218B0B61001C7A86 /* PayTabsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89CB218B0B5D001C7A86 /* PayTabsViewController_iPhone.xib */; };
+		D1EE89E1218B0B61001C7A86 /* PayTabCardReaderViewControllerWideScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89CD218B0B5E001C7A86 /* PayTabCardReaderViewControllerWideScreen.xib */; };
+		D1EE89E2218B0B61001C7A86 /* PayTabCardReaderViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89D0218B0B5E001C7A86 /* PayTabCardReaderViewController_iPhone.xib */; };
+		D1EE89E3218B0B61001C7A86 /* PayTabsViewControllerWideScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89D3218B0B5F001C7A86 /* PayTabsViewControllerWideScreen.xib */; };
+		D1EE89E4218B0B61001C7A86 /* PayTabFinishedViewControllerWideScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89D4218B0B5F001C7A86 /* PayTabFinishedViewControllerWideScreen.xib */; };
+		D1EE89E5218B0B61001C7A86 /* PaytabsSendNotification_WideScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89D9218B0B60001C7A86 /* PaytabsSendNotification_WideScreen.xib */; };
+		D1EE89E6218B0B61001C7A86 /* PayTabsWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89DA218B0B60001C7A86 /* PayTabsWebView.xib */; };
+		D1EE89E7218B0B61001C7A86 /* PayTabFinishedViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89DB218B0B60001C7A86 /* PayTabFinishedViewController_iPhone.xib */; };
+		D1EE89E8218B0B61001C7A86 /* PaytabsSendNotification_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89DC218B0B60001C7A86 /* PaytabsSendNotification_iPhone.xib */; };
+		D1EE8A0D218B0BA1001C7A86 /* accept-large.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89EC218B0B9F001C7A86 /* accept-large.png */; };
+		D1EE8A0E218B0BA1001C7A86 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89ED218B0B9F001C7A86 /* Icon-Small@2x.png */; };
+		D1EE8A0F218B0BA1001C7A86 /* down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89EE218B0B9F001C7A86 /* down-arrow.png */; };
+		D1EE8A10218B0BA1001C7A86 /* camera-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89EF218B0B9F001C7A86 /* camera-lg.png */; };
+		D1EE8A11218B0BA1001C7A86 /* camera---new.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F0218B0B9F001C7A86 /* camera---new.png */; };
+		D1EE8A12218B0BA1001C7A86 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F1218B0BA0001C7A86 /* Icon-60.png */; };
+		D1EE8A13218B0BA1001C7A86 /* bank_cards-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F2218B0BA0001C7A86 /* bank_cards-32.png */; };
+		D1EE8A14218B0BA1001C7A86 /* p_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F3218B0BA0001C7A86 /* p_icon.png */; };
+		D1EE8A15218B0BA1001C7A86 /* accept-small.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F4218B0BA0001C7A86 /* accept-small.png */; };
+		D1EE8A16218B0BA1001C7A86 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F5218B0BA0001C7A86 /* arrow.png */; };
+		D1EE8A17218B0BA1001C7A86 /* scan.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F6218B0BA0001C7A86 /* scan.png */; };
+		D1EE8A18218B0BA1001C7A86 /* logo-144.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F7218B0BA0001C7A86 /* logo-144.png */; };
+		D1EE8A19218B0BA1001C7A86 /* camera-small.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F8218B0BA0001C7A86 /* camera-small.png */; };
+		D1EE8A1A218B0BA1001C7A86 /* p-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89F9218B0BA0001C7A86 /* p-icon.png */; };
+		D1EE8A1B218B0BA1001C7A86 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89FA218B0BA0001C7A86 /* Icon-40.png */; };
+		D1EE8A1C218B0BA1001C7A86 /* camera--new.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89FB218B0BA0001C7A86 /* camera--new.png */; };
+		D1EE8A1D218B0BA1001C7A86 /* up-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89FC218B0BA0001C7A86 /* up-arrow.png */; };
+		D1EE8A1E218B0BA1001C7A86 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89FD218B0BA0001C7A86 /* Icon-60@2x.png */; };
+		D1EE8A1F218B0BA1001C7A86 /* accept-medium-small.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89FE218B0BA0001C7A86 /* accept-medium-small.png */; };
+		D1EE8A20218B0BA1001C7A86 /* about-64.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE89FF218B0BA0001C7A86 /* about-64.png */; };
+		D1EE8A21218B0BA1001C7A86 /* p-icon---.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A00218B0BA0001C7A86 /* p-icon---.png */; };
+		D1EE8A22218B0BA1001C7A86 /* PayTab.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A01218B0BA0001C7A86 /* PayTab.png */; };
+		D1EE8A23218B0BA1001C7A86 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A02218B0BA1001C7A86 /* Icon-40@2x.png */; };
+		D1EE8A24218B0BA1001C7A86 /* bank_cards-64.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A03218B0BA1001C7A86 /* bank_cards-64.png */; };
+		D1EE8A25218B0BA1001C7A86 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A04218B0BA1001C7A86 /* Icon-Small.png */; };
+		D1EE8A26218B0BA1001C7A86 /* about-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A05218B0BA1001C7A86 /* about-32.png */; };
+		D1EE8A27218B0BA1001C7A86 /* paytabs-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A06218B0BA1001C7A86 /* paytabs-logo.png */; };
+		D1EE8A28218B0BA1001C7A86 /* p-logo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A07218B0BA1001C7A86 /* p-logo-logo.png */; };
+		D1EE8A29218B0BA1001C7A86 /* accept-medium.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A08218B0BA1001C7A86 /* accept-medium.png */; };
+		D1EE8A2A218B0BA1001C7A86 /* p-icon-small-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A09218B0BA1001C7A86 /* p-icon-small-logo.png */; };
+		D1EE8A2B218B0BA1001C7A86 /* accept-big.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A0A218B0BA1001C7A86 /* accept-big.png */; };
+		D1EE8A2C218B0BA1001C7A86 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A0B218B0BA1001C7A86 /* camera.png */; };
+		D1EE8A2D218B0BA1001C7A86 /* logo-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D1EE8A0C218B0BA1001C7A86 /* logo-72.png */; };
+		D1EE8A2F218B0BAB001C7A86 /* libPayTabsLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1EE8A2E218B0BAB001C7A86 /* libPayTabsLibrary.a */; };
+		FFFC0AD31F628EA4F95412AD /* Pods_PayTabPaymentGateWayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E56B80B35D36F57E548BDD1 /* Pods_PayTabPaymentGateWayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +80,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19E31296EEE7F0E67BC9156F /* Pods-PayTabPaymentGateWayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabPaymentGateWayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayTabPaymentGateWayTests/Pods-PayTabPaymentGateWayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		233974C797476F2A755836B2 /* Pods-PayTabPaymentGateWayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabPaymentGateWayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayTabPaymentGateWayUITests/Pods-PayTabPaymentGateWayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30F3E0D980B579650426C444 /* Pods_PayTabPaymentGateWay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayTabPaymentGateWay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA8DEA506446989703BF7F3 /* Pods-PayTabPaymentGateWay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabPaymentGateWay.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayTabPaymentGateWay/Pods-PayTabPaymentGateWay.release.xcconfig"; sourceTree = "<group>"; };
+		465CF51656B350D3F0FC6410 /* Pods-PayTabPaymentGateWayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabPaymentGateWayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayTabPaymentGateWayTests/Pods-PayTabPaymentGateWayTests.release.xcconfig"; sourceTree = "<group>"; };
+		6627ED43DD85DBDD316D5DAD /* Pods-PayTabPaymentGateWay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabPaymentGateWay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayTabPaymentGateWay/Pods-PayTabPaymentGateWay.debug.xcconfig"; sourceTree = "<group>"; };
+		7DF2E99189E726E8690C5A88 /* Pods_PayTabPaymentGateWayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayTabPaymentGateWayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E56B80B35D36F57E548BDD1 /* Pods_PayTabPaymentGateWayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayTabPaymentGateWayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EE899A218B0B1F001C7A86 /* PayTabPaymentGateWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayTabPaymentGateWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EE899D218B0B1F001C7A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EE899F218B0B1F001C7A86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +101,63 @@
 		D1EE89B9218B0B21001C7A86 /* PayTabPaymentGateWayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTabPaymentGateWayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EE89BD218B0B21001C7A86 /* PayTabPaymentGateWayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayTabPaymentGateWayUITests.swift; sourceTree = "<group>"; };
 		D1EE89BF218B0B21001C7A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1EE89CB218B0B5D001C7A86 /* PayTabsViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayTabsViewController_iPhone.xib; sourceTree = "<group>"; };
+		D1EE89CC218B0B5E001C7A86 /* PayTabsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTabsViewController.h; sourceTree = "<group>"; };
+		D1EE89CD218B0B5E001C7A86 /* PayTabCardReaderViewControllerWideScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayTabCardReaderViewControllerWideScreen.xib; sourceTree = "<group>"; };
+		D1EE89CE218B0B5E001C7A86 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		D1EE89CF218B0B5E001C7A86 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		D1EE89D0218B0B5E001C7A86 /* PayTabCardReaderViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayTabCardReaderViewController_iPhone.xib; sourceTree = "<group>"; };
+		D1EE89D1218B0B5F001C7A86 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		D1EE89D2218B0B5F001C7A86 /* PaytabsSendNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaytabsSendNotification.h; sourceTree = "<group>"; };
+		D1EE89D3218B0B5F001C7A86 /* PayTabsViewControllerWideScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayTabsViewControllerWideScreen.xib; sourceTree = "<group>"; };
+		D1EE89D4218B0B5F001C7A86 /* PayTabFinishedViewControllerWideScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayTabFinishedViewControllerWideScreen.xib; sourceTree = "<group>"; };
+		D1EE89D5218B0B5F001C7A86 /* PayTabCardReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTabCardReaderViewController.h; sourceTree = "<group>"; };
+		D1EE89D6218B0B5F001C7A86 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		D1EE89D7218B0B60001C7A86 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D1EE89D8218B0B60001C7A86 /* PayTabFinishedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTabFinishedViewController.h; sourceTree = "<group>"; };
+		D1EE89D9218B0B60001C7A86 /* PaytabsSendNotification_WideScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaytabsSendNotification_WideScreen.xib; sourceTree = "<group>"; };
+		D1EE89DA218B0B60001C7A86 /* PayTabsWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayTabsWebView.xib; sourceTree = "<group>"; };
+		D1EE89DB218B0B60001C7A86 /* PayTabFinishedViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayTabFinishedViewController_iPhone.xib; sourceTree = "<group>"; };
+		D1EE89DC218B0B60001C7A86 /* PaytabsSendNotification_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaytabsSendNotification_iPhone.xib; sourceTree = "<group>"; };
+		D1EE89DD218B0B60001C7A86 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D1EE89DE218B0B60001C7A86 /* PayTabsWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTabsWebView.h; sourceTree = "<group>"; };
+		D1EE89DF218B0B60001C7A86 /* BundleEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleEx.h; sourceTree = "<group>"; };
+		D1EE89EC218B0B9F001C7A86 /* accept-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accept-large.png"; sourceTree = "<group>"; };
+		D1EE89ED218B0B9F001C7A86 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D1EE89EE218B0B9F001C7A86 /* down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-arrow.png"; sourceTree = "<group>"; };
+		D1EE89EF218B0B9F001C7A86 /* camera-lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-lg.png"; sourceTree = "<group>"; };
+		D1EE89F0218B0B9F001C7A86 /* camera---new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera---new.png"; sourceTree = "<group>"; };
+		D1EE89F1218B0BA0001C7A86 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		D1EE89F2218B0BA0001C7A86 /* bank_cards-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_cards-32.png"; sourceTree = "<group>"; };
+		D1EE89F3218B0BA0001C7A86 /* p_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p_icon.png; sourceTree = "<group>"; };
+		D1EE89F4218B0BA0001C7A86 /* accept-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accept-small.png"; sourceTree = "<group>"; };
+		D1EE89F5218B0BA0001C7A86 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		D1EE89F6218B0BA0001C7A86 /* scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan.png; sourceTree = "<group>"; };
+		D1EE89F7218B0BA0001C7A86 /* logo-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-144.png"; sourceTree = "<group>"; };
+		D1EE89F8218B0BA0001C7A86 /* camera-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-small.png"; sourceTree = "<group>"; };
+		D1EE89F9218B0BA0001C7A86 /* p-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p-icon.png"; sourceTree = "<group>"; };
+		D1EE89FA218B0BA0001C7A86 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		D1EE89FB218B0BA0001C7A86 /* camera--new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera--new.png"; sourceTree = "<group>"; };
+		D1EE89FC218B0BA0001C7A86 /* up-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-arrow.png"; sourceTree = "<group>"; };
+		D1EE89FD218B0BA0001C7A86 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		D1EE89FE218B0BA0001C7A86 /* accept-medium-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accept-medium-small.png"; sourceTree = "<group>"; };
+		D1EE89FF218B0BA0001C7A86 /* about-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-64.png"; sourceTree = "<group>"; };
+		D1EE8A00218B0BA0001C7A86 /* p-icon---.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p-icon---.png"; sourceTree = "<group>"; };
+		D1EE8A01218B0BA0001C7A86 /* PayTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PayTab.png; sourceTree = "<group>"; };
+		D1EE8A02218B0BA1001C7A86 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		D1EE8A03218B0BA1001C7A86 /* bank_cards-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bank_cards-64.png"; sourceTree = "<group>"; };
+		D1EE8A04218B0BA1001C7A86 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		D1EE8A05218B0BA1001C7A86 /* about-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about-32.png"; sourceTree = "<group>"; };
+		D1EE8A06218B0BA1001C7A86 /* paytabs-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paytabs-logo.png"; sourceTree = "<group>"; };
+		D1EE8A07218B0BA1001C7A86 /* p-logo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p-logo-logo.png"; sourceTree = "<group>"; };
+		D1EE8A08218B0BA1001C7A86 /* accept-medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accept-medium.png"; sourceTree = "<group>"; };
+		D1EE8A09218B0BA1001C7A86 /* p-icon-small-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p-icon-small-logo.png"; sourceTree = "<group>"; };
+		D1EE8A0A218B0BA1001C7A86 /* accept-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accept-big.png"; sourceTree = "<group>"; };
+		D1EE8A0B218B0BA1001C7A86 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		D1EE8A0C218B0BA1001C7A86 /* logo-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-72.png"; sourceTree = "<group>"; };
+		D1EE8A2E218B0BAB001C7A86 /* libPayTabsLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayTabsLibrary.a; sourceTree = "<group>"; };
+		D1EE8A30218B0CAB001C7A86 /* PayTabPaymentGateWay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayTabPaymentGateWay-Bridging-Header.h"; sourceTree = "<group>"; };
+		F8C7B1DB4E579046687561C3 /* Pods-PayTabPaymentGateWayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTabPaymentGateWayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayTabPaymentGateWayUITests/Pods-PayTabPaymentGateWayUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +165,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EE8A2F218B0BAB001C7A86 /* libPayTabsLibrary.a in Frameworks */,
+				55B4BCAEC282BDE9D4E07650 /* Pods_PayTabPaymentGateWay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFFC0AD31F628EA4F95412AD /* Pods_PayTabPaymentGateWayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +182,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DACA5BAF0CBB32EBA326D2E /* Pods_PayTabPaymentGateWayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66BB527E98FB8195A4F8EAF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30F3E0D980B579650426C444 /* Pods_PayTabPaymentGateWay.framework */,
+				7E56B80B35D36F57E548BDD1 /* Pods_PayTabPaymentGateWayTests.framework */,
+				7DF2E99189E726E8690C5A88 /* Pods_PayTabPaymentGateWayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1EE8991218B0B1F001C7A86 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +206,8 @@
 				D1EE89B1218B0B21001C7A86 /* PayTabPaymentGateWayTests */,
 				D1EE89BC218B0B21001C7A86 /* PayTabPaymentGateWayUITests */,
 				D1EE899B218B0B1F001C7A86 /* Products */,
+				E8C2EF79D5C8250C52E8F125 /* Pods */,
+				66BB527E98FB8195A4F8EAF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +224,16 @@
 		D1EE899C218B0B1F001C7A86 /* PayTabPaymentGateWay */ = {
 			isa = PBXGroup;
 			children = (
+				D1EE8A2E218B0BAB001C7A86 /* libPayTabsLibrary.a */,
+				D1EE89EB218B0B93001C7A86 /* images */,
+				D1EE89E9218B0B6F001C7A86 /* headerfiles */,
 				D1EE899D218B0B1F001C7A86 /* AppDelegate.swift */,
 				D1EE899F218B0B1F001C7A86 /* ViewController.swift */,
 				D1EE89A1218B0B1F001C7A86 /* Main.storyboard */,
 				D1EE89A4218B0B21001C7A86 /* Assets.xcassets */,
 				D1EE89A6218B0B21001C7A86 /* LaunchScreen.storyboard */,
 				D1EE89A9218B0B21001C7A86 /* Info.plist */,
+				D1EE8A30218B0CAB001C7A86 /* PayTabPaymentGateWay-Bridging-Header.h */,
 			);
 			path = PayTabPaymentGateWay;
 			sourceTree = "<group>";
@@ -125,6 +256,87 @@
 			path = PayTabPaymentGateWayUITests;
 			sourceTree = "<group>";
 		};
+		D1EE89E9218B0B6F001C7A86 /* headerfiles */ = {
+			isa = PBXGroup;
+			children = (
+				D1EE89DF218B0B60001C7A86 /* BundleEx.h */,
+				D1EE89DD218B0B60001C7A86 /* Constants.h */,
+				D1EE89CE218B0B5E001C7A86 /* Global.h */,
+				D1EE89D1218B0B5F001C7A86 /* LoadingView.h */,
+				D1EE89CF218B0B5E001C7A86 /* loginViewController.h */,
+				D1EE89D0218B0B5E001C7A86 /* PayTabCardReaderViewController_iPhone.xib */,
+				D1EE89D5218B0B5F001C7A86 /* PayTabCardReaderViewController.h */,
+				D1EE89CD218B0B5E001C7A86 /* PayTabCardReaderViewControllerWideScreen.xib */,
+				D1EE89DB218B0B60001C7A86 /* PayTabFinishedViewController_iPhone.xib */,
+				D1EE89D8218B0B60001C7A86 /* PayTabFinishedViewController.h */,
+				D1EE89D4218B0B5F001C7A86 /* PayTabFinishedViewControllerWideScreen.xib */,
+				D1EE89DC218B0B60001C7A86 /* PaytabsSendNotification_iPhone.xib */,
+				D1EE89D9218B0B60001C7A86 /* PaytabsSendNotification_WideScreen.xib */,
+				D1EE89D2218B0B5F001C7A86 /* PaytabsSendNotification.h */,
+				D1EE89CB218B0B5D001C7A86 /* PayTabsViewController_iPhone.xib */,
+				D1EE89CC218B0B5E001C7A86 /* PayTabsViewController.h */,
+				D1EE89D3218B0B5F001C7A86 /* PayTabsViewControllerWideScreen.xib */,
+				D1EE89DE218B0B60001C7A86 /* PayTabsWebView.h */,
+				D1EE89DA218B0B60001C7A86 /* PayTabsWebView.xib */,
+				D1EE89D6218B0B5F001C7A86 /* RateView.h */,
+				D1EE89D7218B0B60001C7A86 /* Reachability.h */,
+			);
+			path = headerfiles;
+			sourceTree = "<group>";
+		};
+		D1EE89EB218B0B93001C7A86 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D1EE8A05218B0BA1001C7A86 /* about-32.png */,
+				D1EE89FF218B0BA0001C7A86 /* about-64.png */,
+				D1EE8A0A218B0BA1001C7A86 /* accept-big.png */,
+				D1EE89EC218B0B9F001C7A86 /* accept-large.png */,
+				D1EE89FE218B0BA0001C7A86 /* accept-medium-small.png */,
+				D1EE8A08218B0BA1001C7A86 /* accept-medium.png */,
+				D1EE89F4218B0BA0001C7A86 /* accept-small.png */,
+				D1EE89F5218B0BA0001C7A86 /* arrow.png */,
+				D1EE89F2218B0BA0001C7A86 /* bank_cards-32.png */,
+				D1EE8A03218B0BA1001C7A86 /* bank_cards-64.png */,
+				D1EE89F0218B0B9F001C7A86 /* camera---new.png */,
+				D1EE89FB218B0BA0001C7A86 /* camera--new.png */,
+				D1EE89EF218B0B9F001C7A86 /* camera-lg.png */,
+				D1EE89F8218B0BA0001C7A86 /* camera-small.png */,
+				D1EE8A0B218B0BA1001C7A86 /* camera.png */,
+				D1EE89EE218B0B9F001C7A86 /* down-arrow.png */,
+				D1EE89FA218B0BA0001C7A86 /* Icon-40.png */,
+				D1EE8A02218B0BA1001C7A86 /* Icon-40@2x.png */,
+				D1EE89F1218B0BA0001C7A86 /* Icon-60.png */,
+				D1EE89FD218B0BA0001C7A86 /* Icon-60@2x.png */,
+				D1EE8A04218B0BA1001C7A86 /* Icon-Small.png */,
+				D1EE89ED218B0B9F001C7A86 /* Icon-Small@2x.png */,
+				D1EE8A0C218B0BA1001C7A86 /* logo-72.png */,
+				D1EE89F7218B0BA0001C7A86 /* logo-144.png */,
+				D1EE89F3218B0BA0001C7A86 /* p_icon.png */,
+				D1EE8A00218B0BA0001C7A86 /* p-icon---.png */,
+				D1EE8A09218B0BA1001C7A86 /* p-icon-small-logo.png */,
+				D1EE89F9218B0BA0001C7A86 /* p-icon.png */,
+				D1EE8A07218B0BA1001C7A86 /* p-logo-logo.png */,
+				D1EE8A01218B0BA0001C7A86 /* PayTab.png */,
+				D1EE8A06218B0BA1001C7A86 /* paytabs-logo.png */,
+				D1EE89F6218B0BA0001C7A86 /* scan.png */,
+				D1EE89FC218B0BA0001C7A86 /* up-arrow.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E8C2EF79D5C8250C52E8F125 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6627ED43DD85DBDD316D5DAD /* Pods-PayTabPaymentGateWay.debug.xcconfig */,
+				3EA8DEA506446989703BF7F3 /* Pods-PayTabPaymentGateWay.release.xcconfig */,
+				19E31296EEE7F0E67BC9156F /* Pods-PayTabPaymentGateWayTests.debug.xcconfig */,
+				465CF51656B350D3F0FC6410 /* Pods-PayTabPaymentGateWayTests.release.xcconfig */,
+				233974C797476F2A755836B2 /* Pods-PayTabPaymentGateWayUITests.debug.xcconfig */,
+				F8C7B1DB4E579046687561C3 /* Pods-PayTabPaymentGateWayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +344,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1EE89C2218B0B21001C7A86 /* Build configuration list for PBXNativeTarget "PayTabPaymentGateWay" */;
 			buildPhases = (
+				13CA25EE5150811AF9F34F4E /* [CP] Check Pods Manifest.lock */,
 				D1EE8996218B0B1F001C7A86 /* Sources */,
 				D1EE8997218B0B1F001C7A86 /* Frameworks */,
 				D1EE8998218B0B1F001C7A86 /* Resources */,
@@ -149,6 +362,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1EE89C5218B0B21001C7A86 /* Build configuration list for PBXNativeTarget "PayTabPaymentGateWayTests" */;
 			buildPhases = (
+				2CB86C078D8DEB3002F7C0DC /* [CP] Check Pods Manifest.lock */,
 				D1EE89AA218B0B21001C7A86 /* Sources */,
 				D1EE89AB218B0B21001C7A86 /* Frameworks */,
 				D1EE89AC218B0B21001C7A86 /* Resources */,
@@ -167,6 +381,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1EE89C8218B0B21001C7A86 /* Build configuration list for PBXNativeTarget "PayTabPaymentGateWayUITests" */;
 			buildPhases = (
+				7C0E79666A22F4DFCBF7B82D /* [CP] Check Pods Manifest.lock */,
 				D1EE89B5218B0B21001C7A86 /* Sources */,
 				D1EE89B6218B0B21001C7A86 /* Frameworks */,
 				D1EE89B7218B0B21001C7A86 /* Resources */,
@@ -193,6 +408,7 @@
 				TargetAttributes = {
 					D1EE8999218B0B1F001C7A86 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					D1EE89AD218B0B21001C7A86 = {
 						CreatedOnToolsVersion = 10.0;
@@ -229,9 +445,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EE89E6218B0B61001C7A86 /* PayTabsWebView.xib in Resources */,
+				D1EE89E7218B0B61001C7A86 /* PayTabFinishedViewController_iPhone.xib in Resources */,
+				D1EE89E8218B0B61001C7A86 /* PaytabsSendNotification_iPhone.xib in Resources */,
+				D1EE89E0218B0B61001C7A86 /* PayTabsViewController_iPhone.xib in Resources */,
+				D1EE8A23218B0BA1001C7A86 /* Icon-40@2x.png in Resources */,
+				D1EE8A19218B0BA1001C7A86 /* camera-small.png in Resources */,
+				D1EE89E1218B0B61001C7A86 /* PayTabCardReaderViewControllerWideScreen.xib in Resources */,
 				D1EE89A8218B0B21001C7A86 /* LaunchScreen.storyboard in Resources */,
+				D1EE8A1C218B0BA1001C7A86 /* camera--new.png in Resources */,
+				D1EE8A18218B0BA1001C7A86 /* logo-144.png in Resources */,
+				D1EE8A2A218B0BA1001C7A86 /* p-icon-small-logo.png in Resources */,
+				D1EE8A26218B0BA1001C7A86 /* about-32.png in Resources */,
+				D1EE8A0D218B0BA1001C7A86 /* accept-large.png in Resources */,
+				D1EE8A29218B0BA1001C7A86 /* accept-medium.png in Resources */,
+				D1EE89E2218B0B61001C7A86 /* PayTabCardReaderViewController_iPhone.xib in Resources */,
+				D1EE8A1E218B0BA1001C7A86 /* Icon-60@2x.png in Resources */,
+				D1EE8A1D218B0BA1001C7A86 /* up-arrow.png in Resources */,
+				D1EE8A2D218B0BA1001C7A86 /* logo-72.png in Resources */,
+				D1EE8A13218B0BA1001C7A86 /* bank_cards-32.png in Resources */,
+				D1EE8A2B218B0BA1001C7A86 /* accept-big.png in Resources */,
+				D1EE8A25218B0BA1001C7A86 /* Icon-Small.png in Resources */,
+				D1EE8A27218B0BA1001C7A86 /* paytabs-logo.png in Resources */,
+				D1EE8A1A218B0BA1001C7A86 /* p-icon.png in Resources */,
+				D1EE8A2C218B0BA1001C7A86 /* camera.png in Resources */,
 				D1EE89A5218B0B21001C7A86 /* Assets.xcassets in Resources */,
+				D1EE8A10218B0BA1001C7A86 /* camera-lg.png in Resources */,
+				D1EE8A20218B0BA1001C7A86 /* about-64.png in Resources */,
+				D1EE8A1F218B0BA1001C7A86 /* accept-medium-small.png in Resources */,
+				D1EE8A17218B0BA1001C7A86 /* scan.png in Resources */,
+				D1EE89E5218B0B61001C7A86 /* PaytabsSendNotification_WideScreen.xib in Resources */,
+				D1EE8A0F218B0BA1001C7A86 /* down-arrow.png in Resources */,
+				D1EE8A16218B0BA1001C7A86 /* arrow.png in Resources */,
+				D1EE8A14218B0BA1001C7A86 /* p_icon.png in Resources */,
 				D1EE89A3218B0B1F001C7A86 /* Main.storyboard in Resources */,
+				D1EE89E4218B0B61001C7A86 /* PayTabFinishedViewControllerWideScreen.xib in Resources */,
+				D1EE8A12218B0BA1001C7A86 /* Icon-60.png in Resources */,
+				D1EE8A21218B0BA1001C7A86 /* p-icon---.png in Resources */,
+				D1EE89E3218B0B61001C7A86 /* PayTabsViewControllerWideScreen.xib in Resources */,
+				D1EE8A11218B0BA1001C7A86 /* camera---new.png in Resources */,
+				D1EE8A0E218B0BA1001C7A86 /* Icon-Small@2x.png in Resources */,
+				D1EE8A15218B0BA1001C7A86 /* accept-small.png in Resources */,
+				D1EE8A22218B0BA1001C7A86 /* PayTab.png in Resources */,
+				D1EE8A1B218B0BA1001C7A86 /* Icon-40.png in Resources */,
+				D1EE8A28218B0BA1001C7A86 /* p-logo-logo.png in Resources */,
+				D1EE8A24218B0BA1001C7A86 /* bank_cards-64.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +508,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13CA25EE5150811AF9F34F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayTabPaymentGateWay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB86C078D8DEB3002F7C0DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayTabPaymentGateWayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C0E79666A22F4DFCBF7B82D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayTabPaymentGateWayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1EE8996218B0B1F001C7A86 /* Sources */ = {
@@ -430,40 +745,60 @@
 		};
 		D1EE89C3218B0B21001C7A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6627ED43DD85DBDD316D5DAD /* Pods-PayTabPaymentGateWay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AX766J88NA;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PayTabPaymentGateWay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Vinod.PayTabPaymentGateWay;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayTabPaymentGateWay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.turtle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "PayTabPaymentGateWay/PayTabPaymentGateWay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		D1EE89C4218B0B21001C7A86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EA8DEA506446989703BF7F3 /* Pods-PayTabPaymentGateWay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AX766J88NA;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PayTabPaymentGateWay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Vinod.PayTabPaymentGateWay;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayTabPaymentGateWay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kvana.turtle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "PayTabPaymentGateWay/PayTabPaymentGateWay-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		D1EE89C6218B0B21001C7A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E31296EEE7F0E67BC9156F /* Pods-PayTabPaymentGateWayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +819,7 @@
 		};
 		D1EE89C7218B0B21001C7A86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465CF51656B350D3F0FC6410 /* Pods-PayTabPaymentGateWayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +840,7 @@
 		};
 		D1EE89C9218B0B21001C7A86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233974C797476F2A755836B2 /* Pods-PayTabPaymentGateWayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +860,7 @@
 		};
 		D1EE89CA218B0B21001C7A86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C7B1DB4E579046687561C3 /* Pods-PayTabPaymentGateWayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
